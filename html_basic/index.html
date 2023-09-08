@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>My first web page</title>
-    </head>
-    <body>
-        <h1>HTML BASICS</h1>
-        <p>Hello World! Welcome to my first web page.</p>
-        <p>This page contains a summary of notes I make as I am learning HTML, courstey of <a href="https://www.alxafrica.com/" title="ALX Africa homepage" target="_blank">ALX Africa</a> and <a href="https://www.holbertonschool.com/" title="Holberton School homepage" target="_blank">Holberton School</a>.</p>
-        
-        <h2>What is HTML</h2>
-        <p>HTML stands for <em>HyperText Markup Language.</em> It is the language used to write documents which users see on web browsers.</p>
-        <h3>HyperText</h3>
-        <p>Hypertext is what allows developers of web pages to create links that enable navigation from one web page to <a href="tweets.html">another</a>.</p>
-        <h3>Markup</h3>
-        <p>A markup language allows for the use of text annotations to provide additional meaning to the contents of a document. HTML achieves this using <em>tags(also known as markup)</em>. Tags provide meaning as to how content on the document should be displayed. Browsers use tags to show the appropiate structure for the web page.</p>
-        <p>We use two categories of tags to structure pages:</p>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>My first web page</title>
+</head>
+
+<body>
+    <header>
         <ul>
-            <li>Structural markup: elements used to describe the structure of the document. Example elements: headings &lpar;&lt;h1&gt; through &lt;h6&gt;&rpar;, and &lt;p&gt; elements.</li>
-            <li>Semantic markup: elements which add extra information to the web page but do not affect the structure of the page. Their purpose is so that other programs like screen readers and search engines can use them and know what their function will be. For example, the voice of a screen reader may add emphasis to text around an &lt;em&gt; element.</li>
+            <li><a href="tweets.html">tweets</a></li>
         </ul>
-        <p>Learn more about HTML5 and other web technologies on <abbr title="Mozilla Developer Network">MDN</abbr> Web Docs.
-            <a href="https://developer.mozilla.org/en-US/" target="_blank"><img src="https://developer.mozilla.org/en-US/blog/welcome-to-the-MDN-blog/mandala.png" alt="MDN homepage" height="50" width="120"></a>
-        </p>
-    </body>
+    </header>
+    <main>
+        <article>
+            <h1>HTML BASICS</h1>
+            <p>Hello World! Welcome to my first web page.</p>
+            <p>This page contains a summary of notes I make as I am learning HTML, courstey of <a
+                    href="https://www.alxafrica.com/" title="ALX Africa homepage" target="_blank">ALX Africa</a> and <a
+                    href="https://www.holbertonschool.com/" title="Holberton School homepage" target="_blank">Holberton
+                    School</a>.</p>
+
+            <h2>What is HTML</h2>
+            <p>HTML stands for <em>HyperText Markup Language.</em> It is the language used to write documents which
+                users see on web browsers.</p>
+            <h3>HyperText</h3>
+            <p>Hypertext is what allows developers of web pages to create links that enable navigation from one web page
+                to <a href="tweets.html">another</a>.</p>
+            <h3>Markup</h3>
+            <p>A markup language allows for the use of text annotations to provide additional meaning to the contents of
+                a document. HTML achieves this using <em>tags(also known as markup)</em>. Tags provide meaning as to how
+                content on the document should be displayed. Browsers use tags to show the appropiate structure for the
+                web page.</p>
+            <p>We use two categories of tags to structure pages:</p>
+            <ul>
+                <li>Structural markup: elements used to describe the structure of the document. Example elements:
+                    headings &lpar;&lt;h1&gt; through &lt;h6&gt;&rpar;, and &lt;p&gt; elements.</li>
+                <li>Semantic markup: elements which add extra information to the web page but do not affect the
+                    structure of the page. Their purpose is so that other programs like screen readers and search
+                    engines can use them and know what their function will be. For example, the voice of a screen reader
+                    may add emphasis to text around an &lt;em&gt; element.</li>
+            </ul>
+            <p>Learn more about HTML5 and other web technologies on <abbr title="Mozilla Developer Network">MDN</abbr>
+                Web Docs.
+                <a href="https://developer.mozilla.org/en-US/" target="_blank"><img
+                        src="https://developer.mozilla.org/en-US/blog/welcome-to-the-MDN-blog/mandala.png"
+                        alt="MDN homepage" height="50" width="120"></a>
+            </p>
+        </article>
+        <aside>
+            <p>Placeholder to add comment thread later.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by James Arong'o.</p>
+    </footer>
+</body>
+
 </html>
